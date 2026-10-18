@@ -1,0 +1,34 @@
+{
+  "t": 15.585,
+  "initial_world_pose": {
+    "t": 15.552,
+    "stamp": 15.552,
+    "x": -2.0005183363190366,
+    "y": -0.500000124246168,
+    "yaw": -6.282256333270422e-06,
+    "frame": "default",
+    "child": "turtlebot3_waffle"
+  },
+  "graph": {
+    "/scan": {
+      "publishers": [
+        "ros_gz_bridge"
+      ],
+      "subscribers": [
+        "amcl",
+        "local_costmap",
+        "global_costmap",
+        "collision_monitor",
+        "failure_lab_04_observer"
+      ]
+    },
+    "/rfl04/truth": {
+      "publishers": [
+        "failure_lab_04_truth_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_04_observer"
+      ]
+    }
+  }
+}

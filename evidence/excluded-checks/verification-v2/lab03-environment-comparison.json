@@ -1,0 +1,26 @@
+{
+  "lab03_package_query_matches": true,
+  "parameter_differences_from_lab03": [
+    [
+      "amcl.ros__parameters.scan_topic",
+      "/failure_lab03/localization_scan",
+      "scan"
+    ],
+    [
+      "collision_monitor.ros__parameters.scan.topic",
+      "/failure_lab03/obstacle_scan",
+      "scan"
+    ],
+    [
+      "global_costmap.global_costmap.ros__parameters.obstacle_layer.scan.topic",
+      "/failure_lab03/obstacle_scan",
+      "/scan"
+    ],
+    [
+      "local_costmap.local_costmap.ros__parameters.voxel_layer.scan.topic",
+      "/failure_lab03/obstacle_scan",
+      "/scan"
+    ]
+  ],
+  "parameters_match_except_four_scan_routes": true
+}

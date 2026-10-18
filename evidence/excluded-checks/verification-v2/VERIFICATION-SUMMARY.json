@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "only_runtime_difference": [
+    [
+      "/controller_server.general_goal_checker.xy_goal_tolerance",
+      0.25,
+      0.75
+    ]
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "attempts": [
+    {
+      "kind": "main",
+      "path": "block-1-baseline",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 581,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 16660, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_e4g_6755 -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 589,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 16601, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_zqbc7a8l --params-file /tmp/launch_params_n4w6peqc'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 591,
+          "text": "[ERROR] [map_server-6]: process has died [pid 16599, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_ardogfxl --params-file /tmp/launch_params_v_bpquk1 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 593,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 16598, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_v92s1_lh -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 595,
+          "text": "[ERROR] [amcl-7]: process has died [pid 16600, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_ardogfxl -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-1-relaxed",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 484,
+          "text": "[ERROR] [collision_monitor-17]: process has died [pid 17129, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_collision_monitor/collision_monitor --ros-args --log-level info --ros-args -r __node:=collision_monitor -p use_sim_time:=True --params-file /tmp/launch_params_nfrn3r9g -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 485,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 17119, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_nfrn3r9g -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 491,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 17076, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_zxtfavvp --params-file /tmp/launch_params_eqkisb8b'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 492,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 17097, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_nfrn3r9g -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 493,
+          "text": "[ERROR] [amcl-7]: process has died [pid 17075, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_1ab03xfk -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 495,
+          "text": "[ERROR] [map_server-6]: process has died [pid 17074, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_1ab03xfk --params-file /tmp/launch_params_1hwsad2g -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 502,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 17073, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_yqt5ap1z -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-2-baseline",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 437,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 18057, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_731jkrtw -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 445,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 18008, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_731jkrtw -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 447,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 17991, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_2dk7_2nq --params-file /tmp/launch_params_tvyihc_s'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 449,
+          "text": "[ERROR] [amcl-7]: process has died [pid 17990, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_9aj9rerp -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 451,
+          "text": "[ERROR] [map_server-6]: process has died [pid 17989, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_9aj9rerp --params-file /tmp/launch_params_nuk66t1s -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 455,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 17988, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_jrlsaw0j -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-2-relaxed",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 559,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 17571, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_fk0856sj -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 565,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 17536, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_k7anytt2 --params-file /tmp/launch_params_flqz1mce'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 568,
+          "text": "[ERROR] [map_server-6]: process has died [pid 17534, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_7vqor5o0 --params-file /tmp/launch_params_u00krei2 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 572,
+          "text": "[ERROR] [amcl-7]: process has died [pid 17535, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_7vqor5o0 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 573,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 17533, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_0q365q50 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-3-baseline",
+      "ready": false,
+      "goal_submitted": false,
+      "task_terminal": false,
+      "result": false,
+      "infrastructure_error": "TimeoutError('Readiness exceeded 75 wall seconds')\n",
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 345,
+          "text": "[ERROR] [opennav_docking-18]: process has died [pid 18505, exit code -2, cmd '/opt/ros/jazzy/lib/opennav_docking/opennav_docking --ros-args --log-level info --ros-args -r __node:=docking_server -p use_sim_time:=True --params-file /tmp/launch_params_lj4znxj7 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 346,
+          "text": "[ERROR] [collision_monitor-17]: process has died [pid 18504, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_collision_monitor/collision_monitor --ros-args --log-level info --ros-args -r __node:=collision_monitor -p use_sim_time:=True --params-file /tmp/launch_params_lj4znxj7 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 348,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 18500, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_lj4znxj7 -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 349,
+          "text": "[ERROR] [waypoint_follower-15]: process has died [pid 18474, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_waypoint_follower/waypoint_follower --ros-args --log-level info --ros-args -r __node:=waypoint_follower -p use_sim_time:=True --params-file /tmp/launch_params_lj4znxj7 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 352,
+          "text": "[ERROR] [bt_navigator-14]: process has died [pid 18470, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator -p use_sim_time:=True --params-file /tmp/launch_params_lj4znxj7 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 356,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 18459, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_lj4znxj7 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 361,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 18437, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_tfh3nhh8 --params-file /tmp/launch_params_z4j69vqh'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 362,
+          "text": "[ERROR] [amcl-7]: process has died [pid 18436, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_skx4i8_y -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 363,
+          "text": "[ERROR] [map_server-6]: process has died [pid 18435, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_skx4i8_y --params-file /tmp/launch_params_9tl884tf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 364,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 18434, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params__x1cq_6b -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 436,
+          "text": "[ERROR] [lifecycle_manager-19]: process has died [pid 18506, exit code -9, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_navigation -p use_sim_time:=True --params-file /tmp/launch_params_21x30jnn --params-file /tmp/launch_params_lf84hbg2'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-3-baseline-attempt-2",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 503,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 18986, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_rg8a7url -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 508,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 18941, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_rg8a7url -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 510,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 18918, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_ctktbcu7 --params-file /tmp/launch_params_en5j637m'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 539,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 18915, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_xf3ku0tw -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 544,
+          "text": "[ERROR] [map_server-6]: process has died [pid 18916, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_yp8jvhzc --params-file /tmp/launch_params_8cr18y2z -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 545,
+          "text": "[ERROR] [amcl-7]: process has died [pid 18917, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_yp8jvhzc -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-3-relaxed",
+      "ready": false,
+      "goal_submitted": false,
+      "task_terminal": false,
+      "result": false,
+      "infrastructure_error": "TimeoutError('Readiness exceeded 75 wall seconds')\n",
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 268,
+          "text": "[ERROR] [opennav_docking-18]: process has died [pid 19490, exit code -2, cmd '/opt/ros/jazzy/lib/opennav_docking/opennav_docking --ros-args --log-level info --ros-args -r __node:=docking_server -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 270,
+          "text": "[ERROR] [collision_monitor-17]: process has died [pid 19475, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_collision_monitor/collision_monitor --ros-args --log-level info --ros-args -r __node:=collision_monitor -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 272,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 19472, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 275,
+          "text": "[ERROR] [waypoint_follower-15]: process has died [pid 19469, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_waypoint_follower/waypoint_follower --ros-args --log-level info --ros-args -r __node:=waypoint_follower -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 277,
+          "text": "[ERROR] [bt_navigator-14]: process has died [pid 19465, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 279,
+          "text": "[ERROR] [behavior_server-13]: process has died [pid 19452, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_behaviors/behavior_server --ros-args --log-level info --ros-args -r __node:=behavior_server -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 280,
+          "text": "[ERROR] [route_server-12]: process has died [pid 19428, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_route/route_server --ros-args --log-level info --ros-args -r __node:=route_server -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 284,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 19414, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 285,
+          "text": "[ERROR] [planner_server-11]: process has died [pid 19416, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_planner/planner_server --ros-args --log-level info --ros-args -r __node:=planner_server -p use_sim_time:=True --params-file /tmp/launch_params_av558sxf -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 288,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 19399, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_i45utc7s --params-file /tmp/launch_params_qk8aa_ql'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 290,
+          "text": "[ERROR] [amcl-7]: process has died [pid 19398, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_2m74usj1 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 295,
+          "text": "[ERROR] [map_server-6]: process has died [pid 19397, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_2m74usj1 --params-file /tmp/launch_params_alwezu_t -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 296,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 19396, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_3s23hhr9 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 350,
+          "text": "[ERROR] [lifecycle_manager-19]: process has died [pid 19491, exit code -9, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_navigation -p use_sim_time:=True --params-file /tmp/launch_params_nr3cnhfe --params-file /tmp/launch_params_nrrgy639'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "main",
+      "path": "block-3-relaxed-attempt-2",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 494,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 19915, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_o6gk6p3h -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 501,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 19872, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_o6gk6p3h -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 502,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 19858, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_v0zpzmj2 --params-file /tmp/launch_params_j20qihpk'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 505,
+          "text": "[ERROR] [amcl-7]: process has died [pid 19857, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_z28hgrr_ -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 511,
+          "text": "[ERROR] [map_server-6]: process has died [pid 19856, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_z28hgrr_ --params-file /tmp/launch_params_hh3fo68e -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 512,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 19855, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_xg3bsvr2 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "excluded-original",
+      "path": "excluded-checks/initial-incomplete-parameter-audit/block-0-baseline",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": "KeyError('source_timeout')\n",
+      "process_deaths": [
+        {
+          "line": 538,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 14980, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_0_lzjh9g -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 541,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 14972, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_kxjntxja --params-file /tmp/launch_params_2oa5dl2n'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 542,
+          "text": "[ERROR] [amcl-7]: process has died [pid 14971, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_a25mp5m8 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 547,
+          "text": "[ERROR] [map_server-6]: process has died [pid 14970, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_a25mp5m8 --params-file /tmp/launch_params_st5pqbcq -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 605,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 14969, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_4ao2lpd8 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "excluded-revised",
+      "path": "excluded-checks/verification-v2/block-0-baseline",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 480,
+          "text": "[ERROR] [velocity_smoother-16]: process has died [pid 15594, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_lc7uvos8 -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 490,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 15567, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_lc7uvos8 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 491,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 15531, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_p116ncjy --params-file /tmp/launch_params_q1vb11bn'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 492,
+          "text": "[ERROR] [map_server-6]: process has died [pid 15529, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_ydqrwoyl --params-file /tmp/launch_params__pp3_6cz -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 497,
+          "text": "[ERROR] [amcl-7]: process has died [pid 15530, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_ydqrwoyl -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 498,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 15528, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_mvmjswck -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    },
+    {
+      "kind": "excluded-revised",
+      "path": "excluded-checks/verification-v2/block-0-relaxed",
+      "ready": true,
+      "goal_submitted": true,
+      "task_terminal": true,
+      "result": true,
+      "infrastructure_error": null,
+      "protocol_error": null,
+      "process_deaths": [
+        {
+          "line": 602,
+          "text": "[ERROR] [smoother_server-10]: process has died [pid 16019, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_g9h8skrh -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 606,
+          "text": "[ERROR] [amcl-7]: process has died [pid 15990, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_s1ifibwt -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 607,
+          "text": "[ERROR] [lifecycle_manager-8]: process has died [pid 15991, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_gl2rs5wf --params-file /tmp/launch_params_ggvne4_v'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 613,
+          "text": "[ERROR] [map_server-6]: process has died [pid 15989, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_s1ifibwt --params-file /tmp/launch_params_xao7vc2m -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        },
+        {
+          "line": 614,
+          "text": "[ERROR] [robot_state_publisher-5]: process has died [pid 15988, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_yrd4kkf3 -r /tf:=tf -r /tf_static:=tf_static'].",
+          "after_shutdown": true
+        }
+      ],
+      "segfaults": []
+    }
+  ],
+  "main_attempts": 8,
+  "excluded_attempts": 3,
+  "note": "Nonzero child exits from intentional shutdown retained. Classification uses log ordering relative to shutdown signals; underlying causes not inferred."
+}

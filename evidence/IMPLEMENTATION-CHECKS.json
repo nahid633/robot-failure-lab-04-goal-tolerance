@@ -1,0 +1,10 @@
+{
+  "recorded_from": "Session command output before initial verification; core and tests remained unchanged in the frozen main snapshot.",
+  "command": "python3 -m unittest -v test_core",
+  "tests_passed": 6,
+  "exit_code": 0,
+  "core_sha256": "53a93834603cd3d8243a53da91a7ef845d1a897b170b9b37f6977ae57f141960",
+  "tests_sha256": "7583e1de308c8479a3434f5994d4ed233e2c076c18966581ea1b7d7c3bfac5a2",
+  "runtime_evidence": "Two revised excluded checks and all six main trials passed validation.",
+  "visual_inspection": "Comparison and reviewed first-pair path figures inspected; mid/final frames of the 85-frame recorded-position GIF inspected. Supplemental path renderer changes label layout only; original renderer and initial figure retained."
+}

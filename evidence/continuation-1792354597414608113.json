@@ -1,0 +1,20 @@
+{
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-04-main-20261018",
+    "--verification-root",
+    "/tmp/robot-failure-lab-04-verification-v2-20261018",
+    "--domain",
+    "196",
+    "--resume-infrastructure"
+  ],
+  "domain": 196,
+  "preserved_trials": [
+    "block-1-baseline",
+    "block-1-relaxed",
+    "block-2-relaxed",
+    "block-2-baseline",
+    "block-3-baseline-attempt-2"
+  ],
+  "reason": "Continue before-goal infrastructure failures only; preserve every completed outcome."
+}

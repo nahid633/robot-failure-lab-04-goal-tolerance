@@ -1,0 +1,2 @@
+[INFO] [1792354397.049666319] [failure_lab_04_truth_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot3_waffle/pose (gz.msgs.Pose_V) -> /model/turtlebot3_waffle/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[INFO] [1792354468.748387377] [rclcpp]: signal_handler(SIGINT/SIGTERM)

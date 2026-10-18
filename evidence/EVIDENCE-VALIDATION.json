@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "trials": {
+    "block-1-baseline": {
+      "passed": true,
+      "telemetry": {
+        "truth": {
+          "samples": 468,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 468,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 84,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "parameters_unchanged": true,
+      "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+    },
+    "block-1-relaxed": {
+      "passed": true,
+      "telemetry": {
+        "truth": {
+          "samples": 442,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 442,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 80,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "parameters_unchanged": true,
+      "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+    },
+    "block-2-relaxed": {
+      "passed": true,
+      "telemetry": {
+        "truth": {
+          "samples": 432,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 432,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 78,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "parameters_unchanged": true,
+      "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+    },
+    "block-2-baseline": {
+      "passed": true,
+      "telemetry": {
+        "truth": {
+          "samples": 550,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 550,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 99,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "parameters_unchanged": true,
+      "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+    },
+    "block-3-baseline-attempt-2": {
+      "passed": true,
+      "telemetry": {
+        "truth": {
+          "samples": 1573,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1573,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 284,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "parameters_unchanged": true,
+      "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+    },
+    "block-3-relaxed-attempt-2": {
+      "passed": true,
+      "telemetry": {
+        "truth": {
+          "samples": 434,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 434,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 78,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "parameters_unchanged": true,
+      "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+    }
+  },
+  "only_runtime_difference": [
+    [
+      "/controller_server.general_goal_checker.xy_goal_tolerance",
+      0.25,
+      0.75
+    ]
+  ],
+  "all_source_hashes_match": true
+}

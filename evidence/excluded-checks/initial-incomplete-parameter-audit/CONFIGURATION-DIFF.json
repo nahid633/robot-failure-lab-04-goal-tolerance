@@ -1,0 +1,7 @@
+[
+  [
+    "controller_server.ros__parameters.general_goal_checker.xy_goal_tolerance",
+    0.25,
+    0.75
+  ]
+]

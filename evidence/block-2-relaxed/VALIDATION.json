@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "telemetry": {
+    "truth": {
+      "samples": 432,
+      "max_gap_s": 0.036000000000001364
+    },
+    "odom": {
+      "samples": 432,
+      "max_gap_s": 0.036000000000001364
+    },
+    "scans": {
+      "samples": 78,
+      "max_gap_s": 0.2010000000000005
+    }
+  },
+  "parameters_unchanged": true,
+  "scope": "Independent Gazebo world pose; map/world alignment inherited from supplied sandbox and spawn coordinates. Position acceptance only."
+}

@@ -1,0 +1,34 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/tmp/robot-failure-lab-04-verification-v2-20261018/source/seeded_simulation_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/tmp/robot-failure-lab-04-verification-v2-20261018/relaxed-params.yaml",
+    "map:=/tmp/robot-failure-lab-04-verification-v2-20261018/tb3_sandbox.yaml",
+    "robot_sdf:=/tmp/robot-failure-lab-04-verification-v2-20261018/source/measured_robot.sdf.xacro",
+    "world:=/tmp/robot-failure-lab-04-verification-v2-20261018/source/world.sdf.xacro"
+  ],
+  "bridge": [
+    "ros2",
+    "run",
+    "ros_gz_bridge",
+    "parameter_bridge",
+    "/model/turtlebot3_waffle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "--ros-args",
+    "-r",
+    "__node:=failure_lab_04_truth_bridge",
+    "-r",
+    "/model/turtlebot3_waffle/pose:=/rfl04/truth"
+  ],
+  "gazebo_seed": 100,
+  "domain": 194,
+  "host_load": [
+    1.0205078125,
+    0.4541015625,
+    0.30419921875
+  ],
+  "params_sha256": "d8423303b0c9d97ac1d7d06ebe47585d13fb639adb1eedf8ebd7f17aff2b5e75"
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "condition": "baseline",
+    "xy_goal_tolerance_m": 0.25,
+    "start_sim_s": 16.779,
+    "end_sim_s": 31.431,
+    "observation_end_sim_s": 33.498,
+    "elapsed_sim_s": 14.652000000000001,
+    "elapsed_wall_s": 16.73027210500004,
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "initial_world_pose": {
+      "t": 16.776,
+      "stamp": 16.776,
+      "x": -2.0005183363190366,
+      "y": -0.500000124246168,
+      "yaw": -6.282256333270422e-06,
+      "frame": "default",
+      "child": "turtlebot3_waffle"
+    },
+    "graph": {
+      "/scan": {
+        "publishers": [
+          "ros_gz_bridge"
+        ],
+        "subscribers": [
+          "failure_lab_04_observer",
+          "amcl",
+          "local_costmap",
+          "global_costmap",
+          "collision_monitor"
+        ]
+      },
+      "/rfl04/truth": {
+        "publishers": [
+          "failure_lab_04_truth_bridge"
+        ],
+        "subscribers": [
+          "failure_lab_04_observer"
+        ]
+      }
+    },
+    "recoveries": 0,
+    "metrics": {
+      "terminal_world_error_m": 0.22889320404983185,
+      "terminal_localized_error_m": 0.2334301141063633,
+      "terminal_world_stamp": 31.428,
+      "terminal_localized_stamp": 31.428,
+      "terminal_world_x": 0.7764971866495625,
+      "terminal_world_y": 0.5493820947777375,
+      "terminal_world_yaw_error_rad": 0.027999237152161047,
+      "settled_world_error_max_m": 0.17609260610054034,
+      "settled_world_error_mean_m": 0.17609260610054034,
+      "settled_position_pass": true,
+      "world_path_length_m": 3.608158281669663,
+      "settled_samples": 14
+    },
+    "trial": "block-0-baseline",
+    "block": 0,
+    "gazebo_seed": 100,
+    "evidence_validated": true
+  },
+  {
+    "condition": "relaxed",
+    "xy_goal_tolerance_m": 0.75,
+    "start_sim_s": 15.585,
+    "end_sim_s": 70.245,
+    "observation_end_sim_s": 72.294,
+    "elapsed_sim_s": 54.660000000000004,
+    "elapsed_wall_s": 56.76168963700002,
+    "outcome": "succeeded",
+    "goal_accepted": true,
+    "terminal_action_status": 4,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "initial_world_pose": {
+      "t": 15.552,
+      "stamp": 15.552,
+      "x": -2.0005183363190366,
+      "y": -0.500000124246168,
+      "yaw": -6.282256333270422e-06,
+      "frame": "default",
+      "child": "turtlebot3_waffle"
+    },
+    "graph": {
+      "/scan": {
+        "publishers": [
+          "ros_gz_bridge"
+        ],
+        "subscribers": [
+          "amcl",
+          "local_costmap",
+          "global_costmap",
+          "collision_monitor",
+          "failure_lab_04_observer"
+        ]
+      },
+      "/rfl04/truth": {
+        "publishers": [
+          "failure_lab_04_truth_bridge"
+        ],
+        "subscribers": [
+          "failure_lab_04_observer"
+        ]
+      }
+    },
+    "recoveries": 5,
+    "metrics": {
+      "terminal_world_error_m": 0.7274819538658862,
+      "terminal_localized_error_m": 0.7225999404217439,
+      "terminal_world_stamp": 70.236,
+      "terminal_localized_stamp": 70.236,
+      "terminal_world_x": 0.27515399035180993,
+      "terminal_world_y": 0.5618728979248858,
+      "terminal_world_yaw_error_rad": 0.02229416726398879,
+      "settled_world_error_max_m": 0.6053118972558988,
+      "settled_world_error_mean_m": 0.6053118972558988,
+      "settled_position_pass": false,
+      "world_path_length_m": 3.445393229246319,
+      "settled_samples": 13
+    },
+    "trial": "block-0-relaxed",
+    "block": 0,
+    "gazebo_seed": 100,
+    "evidence_validated": true
+  }
+]

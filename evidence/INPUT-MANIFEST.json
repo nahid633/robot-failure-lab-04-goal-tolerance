@@ -1,0 +1,24 @@
+{
+  "captured_utc": "2026-10-18T20:09:42.808369+00:00",
+  "main_trials_recorded_at_capture": 1,
+  "sha256": {
+    "tb3_sandbox.yaml": "2a284eba0a3aa4a904bce71734c56a543e979899f1cf34daad6e8215e608b438",
+    "relaxed-params.yaml": "d8423303b0c9d97ac1d7d06ebe47585d13fb639adb1eedf8ebd7f17aff2b5e75",
+    "upstream-params.yaml": "26e4361b02dbc68c17296147167989c75ff7e3348481d2e4652b6f79e9082069",
+    "baseline-params.yaml": "26e4361b02dbc68c17296147167989c75ff7e3348481d2e4652b6f79e9082069",
+    "tb3_sandbox.pgm": "0103b9dfaa3b79592af71cc35d64f69cfbd3565d173160820ad8ef56cd27b3fc",
+    "source/measured_robot.sdf.xacro": "9950b69304fefe7c51c14e561b4f55f1fcfb497438b30f459a856ed99ace2e89",
+    "source/trial.py": "4d818344d7595349e3fc22b59f0ad0a7eaa38435d0a6cd06931eca8c67e49b98",
+    "source/upstream_tb3_simulation_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "source/core.py": "53a93834603cd3d8243a53da91a7ef845d1a897b170b9b37f6977ae57f141960",
+    "source/report.py": "cbbcacc00e05810457da47f91738756cacf347a0227d3ac85f9fe1af27ed73d8",
+    "source/seeded_simulation_launch.py": "6b4443dd2ba90821fb44bbae45ef42ab8d4df34aaefb97af4b8a810d1fc95aca",
+    "source/run.py": "5d83b127f4b58749b4f2c8d4274d1c057b8ec0e9ece12fabcaa4c52f5425faa6",
+    "source/README.md": "ebe17a39b4dc82aab3cd206f36345dd2b7741ce00222d24b060fa38106d3dfe9",
+    "source/test_core.py": "7583e1de308c8479a3434f5994d4ed233e2c076c18966581ea1b7d7c3bfac5a2",
+    "source/world.sdf.xacro": "466ebfb9f3dc39c46829a01c405543091d428839c15697d80ddb8fab6dff7771",
+    "source/validate.py": "d65e8b0873b5d383d30a967b40f695ec9facf8f1d5dd61541be0d5eed4f479bb",
+    "source/upstream_robot.sdf.xacro": "133ebbe76997b98e43dbe03aea5a77dd6bd4117a3100343d5857b63cd3128a83",
+    "packages.txt": "bd4dafa0a987a4021ad1d16e6f85b415bbcd7d8a19e8a8ab0b1b08bb403ce5ff"
+  }
+}

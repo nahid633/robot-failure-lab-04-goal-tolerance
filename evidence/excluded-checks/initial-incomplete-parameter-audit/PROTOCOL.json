@@ -1,0 +1,86 @@
+{
+  "experiment": "Robot Failure Lab 04",
+  "verification": true,
+  "verification_root": null,
+  "schedule": [
+    {
+      "block": 0,
+      "condition": "baseline",
+      "gazebo_seed": 100
+    },
+    {
+      "block": 0,
+      "condition": "relaxed",
+      "gazebo_seed": 100
+    }
+  ],
+  "hypothesis": "Relaxed XY tolerance may shorten reported completion while worsening independently measured arrival position. No outcome guaranteed.",
+  "change": {
+    "general_goal_checker.xy_goal_tolerance": {
+      "baseline": 0.25,
+      "relaxed": 0.75
+    }
+  },
+  "start": [
+    -2.0,
+    -0.5
+  ],
+  "goal": [
+    1.0,
+    0.5
+  ],
+  "primary_requirement": "Nav2 succeeded AND every world-pose sample 1.0..1.5 sim seconds after result is within 0.3m of target. This illustrative XY requirement is fixed across both configs; not docking certification.",
+  "primary_metrics": [
+    "original_goal_outcome",
+    "settled_world_error_max_m",
+    "settled_position_pass"
+  ],
+  "secondary_metrics": [
+    "elapsed_sim_s",
+    "terminal_world_error_m",
+    "terminal_localized_error_m",
+    "world_path_length_m",
+    "recoveries",
+    "terminal_world_yaw_error_rad"
+  ],
+  "task_timeout_sim_s": 90,
+  "task_timeout_wall_s": 270,
+  "startup_timeout_wall_s": 75,
+  "observation_tail_sim_s": 1.8,
+  "equal_pre_goal_wait_sim_s": 1.5,
+  "controls": "Same installed upstream configuration except one declared leaf. No sensor injection. Collision monitor enabled. Common observer-only Gazebo PosePublisher and bridge; world pose is never published on /tf.",
+  "measurement": "Model world pose; model/base_footprint/base_link have equal XY origins in inspected SDF. Initial world XY checked within 0.05m of spawn; map/world coordinate correspondence uses supplied sandbox, no fitted alignment.",
+  "interpretation": "Report every outcome, within-seed time differences and all endpoint errors. Three pairs on one route are exploratory, not a general speedup/reliability claim. Do not change threshold/sample after results.",
+  "randomness": "Gazebo seeds matched per pair; AMCL, MPPI, host scheduling uncontrolled; paths not deterministic.",
+  "scope": "Standalone simulation. No replacement goal, physical robot, Vektor integration or public posting.",
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-04-verification-20261018",
+    "--verification",
+    "--domain",
+    "193"
+  ],
+  "platform": "6.6.87.2-microsoft-standard-WSL2",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "source_sha256": {
+    "measured_robot.sdf.xacro": "9950b69304fefe7c51c14e561b4f55f1fcfb497438b30f459a856ed99ace2e89",
+    "trial.py": "8ff837a002c32abfdce08486f10098f847b39016f6bcd865d54d1804e5d4b4da",
+    "upstream_tb3_simulation_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "core.py": "53a93834603cd3d8243a53da91a7ef845d1a897b170b9b37f6977ae57f141960",
+    "report.py": "cbbcacc00e05810457da47f91738756cacf347a0227d3ac85f9fe1af27ed73d8",
+    "seeded_simulation_launch.py": "6b4443dd2ba90821fb44bbae45ef42ab8d4df34aaefb97af4b8a810d1fc95aca",
+    "run.py": "5d83b127f4b58749b4f2c8d4274d1c057b8ec0e9ece12fabcaa4c52f5425faa6",
+    "README.md": "ebe17a39b4dc82aab3cd206f36345dd2b7741ce00222d24b060fa38106d3dfe9",
+    "test_core.py": "7583e1de308c8479a3434f5994d4ed233e2c076c18966581ea1b7d7c3bfac5a2",
+    "world.sdf.xacro": "466ebfb9f3dc39c46829a01c405543091d428839c15697d80ddb8fab6dff7771",
+    "validate.py": "d65e8b0873b5d383d30a967b40f695ec9facf8f1d5dd61541be0d5eed4f479bb",
+    "upstream_robot.sdf.xacro": "133ebbe76997b98e43dbe03aea5a77dd6bd4117a3100343d5857b63cd3128a83"
+  },
+  "config_sha256": {
+    "tb3_sandbox.yaml": "2a284eba0a3aa4a904bce71734c56a543e979899f1cf34daad6e8215e608b438",
+    "relaxed-params.yaml": "d8423303b0c9d97ac1d7d06ebe47585d13fb639adb1eedf8ebd7f17aff2b5e75",
+    "upstream-params.yaml": "26e4361b02dbc68c17296147167989c75ff7e3348481d2e4652b6f79e9082069",
+    "baseline-params.yaml": "26e4361b02dbc68c17296147167989c75ff7e3348481d2e4652b6f79e9082069"
+  },
+  "packages_sha256": "bd4dafa0a987a4021ad1d16e6f85b415bbcd7d8a19e8a8ab0b1b08bb403ce5ff"
+}
